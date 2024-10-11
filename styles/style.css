@@ -178,7 +178,7 @@ body {
     align-items: center;
  }
  .web-img-container img {
-   
+   width: 70%;
  }
  .btn-container {
     margin-top: 25px;
