@@ -199,11 +199,57 @@ body {
     cursor: pointer;
     opacity: 0.7;
  }
+ /* Web Development Section Ends  */
  
-
-
-
-
- footer {
-    margin-top: 100px;
+ /* My Inspiration Section Starts  */
+ .my-inspiration-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    margin-top: 70px;
  }
+ .my-inspiration-container {
+    /* border: 2px solid peru; */
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+.my-inspiration-container h2 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.video-container{
+    padding-top: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-content {
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    width: 1300px; 
+    height: 70vh; 
+    padding: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 16px;
+}
+.video-container iframe {
+    width: 95%; 
+    height: 95%; 
+    border: none; 
+    border-radius: 15px;
+}
+    
+
+
+
+ 
