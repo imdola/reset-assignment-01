@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Azeret Mono", monospace;
 }
@@ -15,6 +16,7 @@ body {
     width: 100%;
     height: 100px;
 }
+
 .nav-bar {
     /* border: 2px solid orange; */
     max-width: 1380px;
@@ -24,10 +26,12 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .nav-bar h2 {
     margin-right: 30px;
 }
-.nav-bar > ul button {
+
+.nav-bar>ul button {
     border-radius: 8px;
     padding: 16px 24px;
     margin-left: 80px;
@@ -44,6 +48,7 @@ body {
     opacity: 0.8;
     cursor: pointer;
 }
+
 /* Nav-Bar Section Ends  */
 
 /* Banner Container Section Starts  */
@@ -52,6 +57,7 @@ body {
     width: 100%;
     height: 600px;
 }
+
 .banner-container {
     /* border: 2px solid blueviolet; */
     max-width: 1490px;
@@ -67,9 +73,11 @@ body {
     background-size: cover;
     background-blend-mode: darken rgba(211, 211, 211, 0);
 }
+
 .banner-container img {
     margin-bottom: 20px;
 }
+
 .banner-heading {
     color: #0D1321;
     text-align: center;
@@ -77,9 +85,11 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 50px; /* 141.667% */
+    line-height: 50px;
+    /* 141.667% */
     margin-bottom: 20px;
 }
+
 .banner-text {
     color: #0D1321;
     text-align: center;
@@ -87,9 +97,11 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
     margin-bottom: 30px;
 }
+
 .btn {
     display: inline-block;
     padding: 16px 24px;
@@ -102,19 +114,21 @@ body {
     /* transition: 0.3s; */
     cursor: pointer;
 }
+
 /* .btn :hover {
     background-color: rgba(0, 0, 255, 0.678) ;
 } */
- /* Banner-Container-Section Ends */
+/* Banner-Container-Section Ends */
 
- /* Web Development Section Starts  */
- .web-dev-section {
-     /* border: 2px solid red; */
-     width: 100%;
-     height: auto;
-     padding-top: 70px;
- }
- .web-dev-container {
+/* Web Development Section Starts  */
+.web-dev-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+
+.web-dev-container {
     /* border: 2px solid green; */
     max-width: 1300px;
     height: auto;
@@ -122,8 +136,9 @@ body {
     padding-top: 60px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
- }
- .web-heading {
+}
+
+.web-heading {
     color: #0D1321;
     text-align: center;
     font-family: "Azeret Mono", monospace;
@@ -132,8 +147,9 @@ body {
     font-weight: 800;
     line-height: normal;
     margin-bottom: 20px;
- }
- .web-dev-contents {
+}
+
+.web-dev-contents {
     /* border: 2px solid salmon; */
     max-width: 850px;
     height: 350px;
@@ -143,50 +159,59 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
- }
- .web-dev-contents-text{
+}
+
+.web-dev-contents-text {
     /* border: 2px solid rebeccapurple; */
     width: 60%;
     margin-left: 55px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
- }
- .web-title {
+}
+
+.web-title {
     color: rgba(13, 19, 33, 0.70);
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; /* 150% */
+    line-height: 36px;
+    /* 150% */
     padding-bottom: 30px;
- }
- .web-text {
+}
+
+.web-text {
     color: #0D1321;
     font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
- }
- .web-img-container {
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.web-img-container {
     /* border: 2px solid peru; */
     width: 40%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .web-img-container img {
-   width: 70%;
- }
- .btn-container {
+}
+
+.web-img-container img {
+    width: 70%;
+}
+
+.btn-container {
     margin-top: 25px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
- }
- .btn-container button {
+}
+
+.btn-container button {
     padding: 10px 15px;
     color: #0D1321;
     text-align: center;
@@ -198,23 +223,26 @@ body {
     border: 1px solid #0D1321;
     cursor: pointer;
     opacity: 0.7;
- }
- /* Web Development Section Ends  */
- 
- /* My Inspiration Section Starts  */
- .my-inspiration-section {
+}
+
+/* Web Development Section Ends  */
+
+/* My Inspiration Section Starts  */
+.my-inspiration-section {
     /* border: 2px solid red; */
     width: 100%;
-    height: 100%;
+    height: auto;
     padding-top: 70px;
     margin-top: 70px;
- }
- .my-inspiration-container {
+}
+
+.my-inspiration-container {
     /* border: 2px solid peru; */
     max-width: 1300px;
     height: auto;
     margin: 0 auto;
 }
+
 .my-inspiration-container h2 {
     color: #0D1321;
     text-align: center;
@@ -225,31 +253,98 @@ body {
     line-height: normal;
     margin-bottom: 20px;
 }
-.video-container{
+
+.video-container {
     padding-top: 5px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .video-content {
     border: 1px solid rgba(13, 19, 33, 0.20);
-    width: 1300px; 
-    height: 70vh; 
-    padding: 5px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    width: 1300px;
+    height: 70vh;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
 }
+
 .video-container iframe {
-    width: 95%; 
-    height: 95%; 
-    border: none; 
+    width: 95%;
+    height: 95%;
+    border: none;
     border-radius: 15px;
 }
-    
 
+/* My Inspiration Section Ends  */
 
+/* My Current Target Section Starts  */
+.current-target-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.current-target-container {
+    padding-top: 10px;
+}
+.current-target-container h2 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.current-card-container {
+    /* border: 2px solid salmon; */
+    max-width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.current-card-content {
+    /* width: 33%; */
+    display: flex;
+    width: 350px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    gap: 25px;
+}
+.current-card-content h3 {
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+.current-card-content p {
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
- 
+.current-card-content a {
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
