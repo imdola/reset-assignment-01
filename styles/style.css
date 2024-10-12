@@ -29,6 +29,7 @@ body {
 
 .nav-bar h2 {
     margin-right: 30px;
+    font-size: 30px;
 }
 
 .nav-bar>ul button {
@@ -86,7 +87,6 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: 50px;
-    /* 141.667% */
     margin-bottom: 20px;
 }
 
@@ -98,7 +98,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
     margin-bottom: 30px;
 }
 
@@ -142,7 +141,7 @@ body {
     color: #0D1321;
     text-align: center;
     font-family: "Azeret Mono", monospace;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -177,7 +176,6 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
-    /* 150% */
     padding-bottom: 30px;
 }
 
@@ -188,7 +186,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+   
 }
 
 .web-img-container {
@@ -247,7 +245,7 @@ body {
     color: #0D1321;
     text-align: center;
     font-family: "Azeret Mono", monospace;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -279,7 +277,6 @@ body {
     border: none;
     border-radius: 15px;
 }
-
 /* My Inspiration Section Ends  */
 
 /* My Current Target Section Starts  */
@@ -296,7 +293,7 @@ body {
     color: #0D1321;
     text-align: center;
     font-family: "Azeret Mono", monospace;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -348,3 +345,69 @@ body {
     line-height: normal;
     text-decoration-line: underline;
 }
+/* My Current Target Section Ends  */
+
+/* Support Section Starts  */
+.support-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.support-container {
+    /* border: 2px solid green; */
+    max-width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 70px;
+    border-radius: 8px;
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.support-container h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+.input-container input {
+    width: 500px;
+    padding: 18px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15px;
+    color: rgba(13, 19, 33, 0.40);
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input-container button {
+    width: 120px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 18px 16px;
+    justify-content: center;
+    align-items: center;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* Support Section Ends  */
