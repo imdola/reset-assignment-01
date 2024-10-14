@@ -30,6 +30,7 @@ body {
 .nav-bar h2 {
     margin-right: 30px;
     font-size: 30px;
+    font-family: "Azeret Mono", monospace;
 }
 
 .nav-bar >ul button {
@@ -191,7 +192,8 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
-.btn-container button {
+.btn-container a {
+    text-decoration: none;
     padding: 10px 15px;
     color: #0D1321;
     text-align: center;
